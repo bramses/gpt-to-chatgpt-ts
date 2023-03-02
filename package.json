@@ -1,5 +1,16 @@
 {
   "devDependencies": {
     "typescript": "^4.9.5"
-  }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node build/test.js"
+  },
+  "author": {
+    "name": "Bram Adams",
+    "email": "bram@bramadams.dev"
+  },
+  "license": "MIT",
+  "name": "gpt-to-chatgpt",
+  "version": "0.1.0"
 }
