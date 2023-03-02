@@ -1,5 +1,5 @@
 # gpt-to-chatgpt-ts
-Convert GPT Completion call to a ChatGPT call
+Convert GPT Completion style message to a ChatGPT call
 
 
 PYTHON VERSION HERE -> https://github.com/bramses/gpt-to-chatgpt-py
