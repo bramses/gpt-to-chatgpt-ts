@@ -52,3 +52,12 @@ npm test
 ```
 
 The tests cover the basic functionality of the toChatML() and get_message() functions, as well as some additional options.
+
+
+## About the Developer
+
+This repository was written by Bram Adams, a writer and programmer based out of NYC. 
+
+Bram publishes a Zettelkasten, with a twice/weekly newsletter (which you can subscribe to [here](https://www.bramadams.dev/#/portal/)), is a community developer ambassador for OpenAI and does freeleance contracts (for hire!) related to AI/web dev/AR+VR. 
+
+You can learn more about him and his work on his [website](https://www.bramadams.dev/about/).
