@@ -43,6 +43,29 @@ import { toChatML, get_message, Role } from "./index";
 // Use the functions here
 ```
 
+
+### Full Example Using OpenAI TS API
+
+```ts
+const { Configuration, OpenAIApi } = require("openai");
+const { toChatML, get_message } = require("gpt-to-chatgpt")
+require("dotenv").config();
+
+const configuration = new Configuration({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+const openai = new OpenAIApi(configuration);
+
+openai.createChatCompletion({
+  model: "gpt-3.5-turbo",
+  messages: toChatML('this is a test')
+}).then((data) => {
+  console.log((get_message(data.data)));
+});
+
+// As an AI language model, I cannot provide a specific answer to the prompt, as it is too broad. However, I confirm that this is a test.
+```
+
 ## Tests
 
 This module includes a test file that can be run using the following command:
