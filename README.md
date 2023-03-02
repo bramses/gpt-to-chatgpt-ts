@@ -4,6 +4,12 @@ Convert GPT Completion call to a ChatGPT call
 
 PYTHON VERSION HERE -> https://github.com/bramses/gpt-to-chatgpt-py
 
+## Installation
+
+```bash
+npm i gpt-to-chatgpt
+```
+
 ## Functions
 
 ```ts
