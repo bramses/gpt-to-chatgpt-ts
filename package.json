@@ -8,11 +8,11 @@
   },
   "author": {
     "name": "Bram Adams",
-    "email": "bram@bramadams.dev"
+    "email": "bram+support@bramadams.dev"
   },
   "license": "MIT",
   "name": "gpt-to-chatgpt",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Convert GPT Completion style message to a ChatGPT call",
   "main": "build/index.js"
 }
